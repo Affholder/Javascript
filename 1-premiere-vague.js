@@ -46,3 +46,15 @@ Est-ce true ?*/
 let resultat = ((4 >= 6) || ("herbe" != "verte")) && !(((12 * 2) == 144) && true);
 console.log(resultat); // Affiche true
 
+/*Exercice 6 :
+Déclarez deux variables pour stocker le poids en kilogrammes et la taille
+en mètres d'une personne.
+Calculez l'indice de masse corporelle (IMC) en utilisant la formule :
+IMC = poids / (taille * taille).
+Affichez l'IMC avec deux décimales.
+NB : vous pouvez vous aider de la méthode toFixed().*/ 
+let poids = 79;
+let taille = 1.79;
+let imc = poids/(taille*taille);
+console.log("L'IMC est de " + imc.toFixed(2));
+
