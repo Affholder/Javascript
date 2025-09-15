@@ -74,3 +74,11 @@ else {
     let fraisLivraison = 5;
     console.log("Frais de livraison : " + fraisLivraison + " euros");
 }  
+
+/*Exercice 8 :
+Déclarez une variable pour stocker un nombre binaire en String
+Convertissez cette variable en décimal en utilisant la fonction parseInt().
+Affichez le nombre binaire et sa conversion décimale.*/
+let binaire = "101000101010110";
+let decimal = parseInt(binaire, 2);
+console.log("Le nombre binaire " + binaire + " en décimal est " + decimal);
