@@ -58,3 +58,19 @@ let taille = 1.79;
 let imc = poids/(taille*taille);
 console.log("L'IMC est de " + imc.toFixed(2));
 
+/*Exercice 7 :
+Déclarez une constante pour le montant minimum de commande pour la
+livraison gratuite.
+Déclarez une variable pour le montant total de la commande.
+Si le montant total est supérieur ou égal au montant minimum, affichez
+"Livraison gratuite !".
+Sinon, affichez "Frais de livraison : X euros"*/
+const montantMinCommande = 50;
+let montantTotalCommande = 30;
+if (montantTotalCommande >= montantMinCommande) {
+    console.log("Livraison gratuite !");
+}
+else {
+    let fraisLivraison = 5;
+    console.log("Frais de livraison : " + fraisLivraison + " euros");
+}  
