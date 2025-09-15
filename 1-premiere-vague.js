@@ -17,3 +17,12 @@ let longueur = 10;
 let largeur = 5;
 let aire = longueur * largeur;
 console.log("L'aire du rectangle est de " + aire + " unités carrées."); 
+
+/*Exercice 3 :
+Déclarez deux variables pour stocker un prénom et un nom.
+Concaténez les deux variables pour former une chaîne complète.
+Affichez la chaîne complète.*/
+let prenom = "Quentin";
+let nom = "Affholder" ;
+let nomComplet = prenom + " " + nom;
+console.log("Nom complet : " + nomComplet);
