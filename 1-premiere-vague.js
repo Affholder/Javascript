@@ -39,3 +39,10 @@ const tauxTVA = 0.20;
 let montantTVA = montantHT * tauxTVA;
 let montantTTC = montantHT + montantTVA;
 console.log("Montant HT : " + montantHT + "€, Montant TVA : " + montantTVA + "€, Montant TTC : " + montantTTC + "€.");
+
+/*Exercice 5 :
+((4 >= 6) || ("herbe" != "verte")) && !(((12 * 2) == 144) && true)
+Est-ce true ?*/
+let resultat = ((4 >= 6) || ("herbe" != "verte")) && !(((12 * 2) == 144) && true);
+console.log(resultat); // Affiche true
+
