@@ -26,3 +26,16 @@ let prenom = "Quentin";
 let nom = "Affholder" ;
 let nomComplet = prenom + " " + nom;
 console.log("Nom complet : " + nomComplet);
+
+/*Exercice 4 :
+Déclarez une variable pour stocker le montant HT (hors taxe) d'un
+produit.
+Déclarez une constante pour stocker le taux de TVA (par exemple, 20%).
+Calculez le montant TTC (toutes taxes comprises) en ajoutant la TVA au
+montant HT.
+Affichez le montant HT, le montant de la TVA et le montant TTC.*/
+let montantHT = 100;
+const tauxTVA = 0.20;
+let montantTVA = montantHT * tauxTVA;
+let montantTTC = montantHT + montantTVA;
+console.log("Montant HT : " + montantHT + "€, Montant TVA : " + montantTVA + "€, Montant TTC : " + montantTTC + "€.");
