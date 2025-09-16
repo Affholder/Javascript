@@ -37,3 +37,15 @@ Affichez le tableau personnes dans la console avec log() et table().*/
 personnes.push({prenom : "Marc",nom: "Doe", age:32, ville:"Marseille"});
 console.log(personnes);
 console.table(personnes);
+
+/*Exercice 4 :
+Modifiez le premier objet du tableau personnes en utilisant la syntaxe
+suivante : personnes[0].prenom = "Jean"
+Supprimez le deuxième objet du tableau personnes en utilisant la
+méthode splice()
+Affichez le tableau personnes dans la console avec log() et table().*/
+
+personnes[0].prenom = "Jean";
+personnes.splice(1, 1);
+console.log(personnes);
+console.table(personnes);
