@@ -70,3 +70,13 @@ console.log(chiffres);
 chiffres.reverse();
 console.log(chiffres);
 
+/*Exercice 7 :
+Créez un tableau numbers = [ 2, 5, 1, 9, 0, 3, 7, 4, 6, 8 ]
+- Affichez le tableau.
+- Triez le tableau avec la méthode sort() puis affichez le tableau.*/
+
+let numbers = [2, 5, 1, 9, 0, 3, 7, 4, 6, 8];
+console.log(numbers);
+numbers.sort((a, b) => a - b);
+console.log(numbers);
+
