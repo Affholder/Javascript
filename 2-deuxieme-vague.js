@@ -49,3 +49,15 @@ personnes[0].prenom = "Jean";
 personnes.splice(1, 1);
 console.log(personnes);
 console.table(personnes);
+
+/*Exercice 5 :
+Créez un tableau contenant les nombres de 1 à 10.
+- Affichez le premier élément du tableau.
+- Affichez le dernier élément du tableau.
+- Affichez la longueur du tableau.*/
+
+let nombres = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+console.log(nombres[0]);
+console.log(nombres[nombres.length-1]);
+console.log(nombres.length);
+
