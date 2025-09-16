@@ -80,3 +80,18 @@ console.log(numbers);
 numbers.sort((a, b) => a - b);
 console.log(numbers);
 
+/*Exercice 8 :
+En repartant du tableau numbers trié :
+- Ajoutez le nombre 11 à la fin du tableau avec la méthode push().
+- Affichez le tableau.
+- Ajoutez le nombre 0 au début du tableau avec la méthode unshift().
+- Affichez le tableau.
+- Supprimez le dernier élément du tableau avec la méthode pop().
+- Affichez le tableau.*/
+
+numbers.push(11);
+console.log(numbers);
+numbers.unshift(0);
+console.log(numbers);
+numbers.pop();
+console.log(numbers);
