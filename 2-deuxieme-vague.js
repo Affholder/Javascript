@@ -29,5 +29,11 @@ let personnes = [
 console.log(personnes);
 console.table(personnes);
 
+/*Exercice 3 :
+Ajoutez un objet à la fin du tableau personnes avec la méthode push() :
+- {prenom: " Marc", nom: "Doe", age: 32, ville: "Marseille"}
+Affichez le tableau personnes dans la console avec log() et table().*/ 
 
-
+personnes.push({prenom : "Marc",nom: "Doe", age:32, ville:"Marseille"});
+console.log(personnes);
+console.table(personnes);
